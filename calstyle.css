@@ -1,0 +1,43 @@
+ body{
+    background-color: black;
+}
+
+.container {
+    border: 0px solid red;
+
+}
+
+.col {
+    border: 0px solid blue;
+    padding: 30px 30px;
+    background-color: yellow;
+}
+
+.col h1 {
+    text-align: center;
+}
+
+.row {
+    border: 0px solid green;
+}
+
+.box {
+    background-color: black;
+    border: 3px solid yellow;
+    box-shadow: 3px 3px 3px 3px white;
+    padding: inherit;
+}
+
+.box:hover {
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.box h1 {
+    color: yellow;
+}
+
+td input {
+    font-size: 30px;
+    background-color: black;
+    color: yellow;
+}
